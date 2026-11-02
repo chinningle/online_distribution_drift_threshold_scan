@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "chinningle-vecdb_jd206"
+name = "chinningle-online_distribution_drift_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://chinningle.github.io"
-Repository = "https://github.com/chinningle/vecdb_jd206"
-Issues = "https://github.com/chinningle/vecdb_jd206/issues"
+Repository = "https://github.com/chinningle/online_distribution_drift_threshold_scan"
+Issues = "https://github.com/chinningle/online_distribution_drift_threshold_scan/issues"
 
 [project.scripts]
-vecdb_jd206 = "vecdb_jd206:main"
+online_distribution_drift_threshold_scan = "online_distribution_drift_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["vecdb_jd206"]
+py-modules = ["online_distribution_drift_threshold_scan"]

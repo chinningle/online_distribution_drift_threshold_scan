@@ -1,11 +1,11 @@
-# vecdb_jd206
+# online_distribution_drift_threshold_scan
 
 **给向量数据库内核工程师·线上分布漂移的检测打分并按阈值给出通过与否。**
 
-`vecdb_jd206` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`online_distribution_drift_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`vecdb_jd206.py` 拷走就能用
+- 单文件，`online_distribution_drift_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install chinningle-vecdb_jd206
+pip install chinningle-online_distribution_drift_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-vecdb_jd206 --help
+online_distribution_drift_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `vecdb_jd206.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `online_distribution_drift_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ vecdb_jd206 --help
 ## 用法
 
 ```bash
-python vecdb_jd206.py --file input.txt
-python vecdb_jd206.py --text "示例内容"
-python vecdb_jd206.py --file input.txt --json
+python online_distribution_drift_threshold_scan.py --file input.txt
+python online_distribution_drift_threshold_scan.py --text "示例内容"
+python online_distribution_drift_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python vecdb_jd206.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_vecdb_jd206.py
+python test_online_distribution_drift_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_vecdb_jd206.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/chinningle/vecdb_jd206>
+- GitHub 仓库：<https://github.com/chinningle/online_distribution_drift_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_vecdb_jd206.py
 chinningle 做向量数据库内核工程师·线上分布漂移的检测相关的问题，方向对标百川智能的专家向量数据库内核工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://chinningle.github.io>
-- 仓库：<https://github.com/chinningle/vecdb_jd206>
+- 仓库：<https://github.com/chinningle/online_distribution_drift_threshold_scan>
 
 ## 许可
 
